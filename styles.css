@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    
+}
+body{  
+    height: 100vh;
+
+  
+}
+.container {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        background-color: #666666;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+
+  }
+/*navbar Incio*/
+
+.navbar{
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu'sans-serif;
+    background: #FFFFFF;
+}
+nav {
+    width: 100%;
+    text-align: right;
+  }
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    transition: color 0.3s  ease;
+
+}
+  
+.nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+.nav-link:hover {
+    color: crimson;
+}
+  
+
+.not{
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 400px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float{
+     0%{
+         transform: translateY(0px);
+     }
+     50%{
+         transform: translateY(-80px);
+     }
+     100%{
+         transform: translateY(0px);
+     }
+}
+
+
+.navbar .max-width{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 1400px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .logo a{
+    color: crimson;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.navbar .logo span{
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+/* Home */
+
+.home{
+    display: flex;
+    height: 100vh;
+    min-height: 500;
+    font-family: 'Ubuntu'sans-serif;
+    background: #666666;
+
+}
+.contrate{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all .3s ease;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+    color: white;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: -3px;
+    color: white;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    max-width: 5px 0;
+    color: white;
+}
+
+.home .home-content .text-3 span{
+    color: red;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 66px 0;
+  }
+  
+
+.img-project2{
+    padding-left: 30px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.img-project{
+    width: 80%;
+    padding: 30px 30px;
+}
+
+.img-project{
+    width: 500px;
+}
+
+ .tilte{
+     font-size: 50px;
+     text-align: center;
+     font-weight: 500;
+     margin-bottom: 30px;
+ }
+.project{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project-text{
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 80px;
+
+}
+.skills{ 
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: black ;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 14px;
+    background: #f1f1f1;
+    border-radius: 3px;
+    color: black;
+}
+.skill-per{
+    height: 14px;
+    background: red;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBar 2.5s 1;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6 px;
+    background: white;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    color: black;
+}
+
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    top: -20px;
+    height: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+    color: #000;
+}
+
+@keyframes fillBar{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+
+
+.contate{
+    margin: 30px auto;
+    font-size: 50px;
+    width: 100vw;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.social-links img {
+    height: 40px;
+    margin: 40px;
+    cursor: pointer;
+  }
+.menu-icon{
+    width: 25px;
+    background-color: white;
+    display: none;
+}
+
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+    
+@media (max-width: 760px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        overflow-y: auto;
+    }
+    .row{
+        flex-direction: column-reverse;
+    }
+    #menu-lis{
+        position: relative;
+        top: 100px;
+        left: 80px;
+        overflow: hidden;
+    } 
+    .menu-icon{
+        display: none;
+    }
+    .nav-li{
+        display: block;
+        margin-top: 5px;
+    }
+    .nav{
+        position: relative;
+        display: block;
+        text-align: right;
+    }
+    .text-1{
+        text-align: left;
+    }
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        /* left: -100%; */
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    
+}
