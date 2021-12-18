@@ -19,7 +19,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./Imagem/1628213195219.jfif" width="100px;" alt="Foto do Juan no GitHub"/><br>
+        <img src="./imagem/1628213195219.jfif" width="100px;" alt="Foto do Juan no GitHub"/><br>
         <sub>
           <b>Juan Carlos</b>
         </sub>
@@ -28,6 +28,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-Link do site: https://juancarllos13.github.io/portfolio/
+Link do site: https://juancarllos13.github.io/Portf-lio/
 
 [⬆ Voltar ao topo](#my)<br>
