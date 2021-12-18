@@ -36,11 +36,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 <table>
   <tr>
     <td align="center">
-<<<<<<< HEAD
       <a href="https://github.com/JuanCarllos13">
-=======
-      <a href="#">
->>>>>>> a1c6b0ac4c8ce90c0fe62be29b546bcba63ab0ec
         <img src="./imagem/1628213195219.jfif" width="100px;" alt="Foto do Juan no GitHub"/><br>
         <sub>
           <b>JUAN CARLOS</b>
@@ -48,12 +44,9 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
       </a>
     </td>
   </tr>
-<<<<<<< HEAD
 </table>
-=======
 </table>
 
 Link do site: https://juancarllos13.github.io/Portf-lio/
 
 [⬆ Voltar ao topo](#my)<br>
->>>>>>> a1c6b0ac4c8ce90c0fe62be29b546bcba63ab0ec
