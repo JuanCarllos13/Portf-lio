@@ -20,9 +20,9 @@
                     <ul id="menu-lis">
                         <li class="nav-li"><a class="nav-link" href="#Home-2">Incio</a></li>
                         <li class="nav-li"><a class="nav-link" href="#about">Quem sou eu.</a></li>
-                        <li class="nav-li"><a class="nav-link" href="#">Meus projetos</a></li>
-                        <li class="nav-li"><a class="nav-link" href="#">Habilidades</a></li>
-                        <li class="nav-li"><a class="nav-link" href="#">Contato</a></li>
+                        <li class="nav-li"><a class="nav-link" href="#myProject">Meus projetos</a></li>
+                        <li class="nav-li"><a class="nav-link" href="#skills">Habilidades</a></li>
+                        <li class="nav-li"><a class="nav-link" href="#contact">Contato</a></li>
                     </ul>
                     <img src="./imagem/list.svg" class="menu-icon" alt="button" onclick="showmenu()">
                 </nav>
@@ -37,7 +37,7 @@
                     <div class="text-1">Olá, meu nome é</div>
                     <div class="text-2">Juan Carlos</div>
                     <div class="text-3">eu sou <span class="typing"></span></div>
-                    <button class="contrate">Contrate-me</button>
+                    <button class="contrate"><a href="https://www.linkedin.com/in/juan-amaral1313/">Contrate-me</a></button>
                 </div>
             </div>
             <img class="not" src="./imagem/computer-illustration.png" alt="">
@@ -51,7 +51,7 @@
                 <img class="img-project" src="./imagem/1628213195219.jfif" alt="minha foto">
             </div>
 
-            <div class="column-2">
+            <div class="column-2" id="about">
                 <h4 class="tilte">Quem sou eu</h4>
                 <p class="project-text">Meu nome é Juan Carlos. Atualmente sou freelancer como Front-end. developer.
                     Profissional graduando em
@@ -61,7 +61,7 @@
                     projetos inovadores no GitHub.
                     Em Front-End. possuo experiência com Javascript, HTML, CSS (construir site e aplicações baseados em
                     designers do figma) ...
-                    Estudante de Back-end. No Back-end. venho aprimorando meus conhecimentos de desenvolvimento em
+                    No Back-end. venho aprimorando meus conhecimentos de desenvolvimento em
                     Node.JS
                     utilizando Javascript.
 
@@ -69,7 +69,7 @@
 
         </div>
 
-        <h2 class="project">Meu Projetos</h2>
+        <h2 class="project" id="myProject">Meus Projetos</h2>
 
         <div class="row">
             <div class="column-1">
@@ -140,13 +140,11 @@
         </div>
 
 
-        <div class="">
-            <div>
+        <div class="" id="skills">
+            <div> 
                 <h4 class="tilte">Minhas Habilidades</h4>
-                <p class="project-text">Projeto desenvolvido como desafio da CodeClub, comunidade de desenvolvedores,
-                    com
-                    objetivo de demonstrar
-                    nossos conhecimentos em HTML CSS E Javascript.
+                <p class="project-text">Atualmente tenho conhecimento em HTML e CSS, estou aprimorando meus conhecimentos
+                    com Javascript e Nodejs, e futuramente irei me aprofundar em React.
                 </p>
 
             </div>
@@ -163,7 +161,7 @@
                 <div class="skill">
                     <div class="skill-name">css</div>
                     <div class="skill-bar">
-                        <div class="skill-per" per='90%' style="max-width: 90%"></div>
+                        <div class="skill-per" per='85%' style="max-width: 85%"></div>
                     </div>
                 </div>
             </div>
@@ -171,32 +169,38 @@
                 <div class="skill">
                     <div class="skill-name">Javascript</div>
                     <div class="skill-bar">
-                        <div class="skill-per" per='90%' style="max-width: 90%"></div>
+                        <div class="skill-per" per='60%' style="max-width: 60%"></div>
                     </div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-name">Node.js</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per='40%' style="max-width: 40%"></div>
+                    </div>
+                </div>
+
+                <div>
+
                 </div>
 
             </div>
 
-            <div>
 
+
+
+
+
+            <p class="contate" id="contact">Contatos e Redes sociais</p>
+            <div class="social-links">
+                <a href="https://github.com/JuanCarllos13" target="_blank"><img src="./imagem/gitHub.png"></a>
+                <a href="https://www.instagram.com/juan.carllos_/"><img src="./imagem/inta.png"></a>
+                <a href="https://www.linkedin.com/in/juan-amaral1313/"><img src="./imagem/link.png"></a>
             </div>
 
+
         </div>
-
-
-
-
-
-
-        <p class="contate">Contatos e Redes sociais</p>
-        <div class="social-links">
-            <a href="https://github.com/JuanCarllos13" target="_blank"><img src="./imagem/gitHub.png"></a>
-            <a href="https://www.instagram.com/juan.carllos_/"><img src="./imagem/inta.png"></a>
-            <a href="https://www.linkedin.com/in/juan-amaral1313/"><img src="./imagem/link.png"></a>
-        </div>
-
-
-    </div>
 
 </body>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
